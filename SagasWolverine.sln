@@ -2,10 +2,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SagaHost", "SagaHost\SagaHost.csproj", "{02F30933-F266-4BDA-B3AF-C7EB472BE506}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageSource", "MessageSource\MessageSource.csproj", "{A3B303C1-DAFF-4F51-9E3B-239A072D92BB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{98FB7D19-66E7-4BDB-9468-3188F97EAB74}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -16,13 +12,5 @@ Global
 		{02F30933-F266-4BDA-B3AF-C7EB472BE506}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02F30933-F266-4BDA-B3AF-C7EB472BE506}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02F30933-F266-4BDA-B3AF-C7EB472BE506}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A3B303C1-DAFF-4F51-9E3B-239A072D92BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A3B303C1-DAFF-4F51-9E3B-239A072D92BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A3B303C1-DAFF-4F51-9E3B-239A072D92BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A3B303C1-DAFF-4F51-9E3B-239A072D92BB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{98FB7D19-66E7-4BDB-9468-3188F97EAB74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{98FB7D19-66E7-4BDB-9468-3188F97EAB74}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{98FB7D19-66E7-4BDB-9468-3188F97EAB74}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{98FB7D19-66E7-4BDB-9468-3188F97EAB74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

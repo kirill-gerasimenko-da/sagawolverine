@@ -1,8 +1,13 @@
 namespace SagaHost;
 
-using Contracts;
 using Wolverine;
 using Wolverine.Persistence.Sagas;
+
+public record StartSagaMessage([property: SagaIdentity] Guid Id, string Username);
+
+public record UpdateEmailMessage([property: SagaIdentity] Guid Id, string Email);
+
+public record Dependency;
 
 public class SampleSaga : Saga
 {
@@ -22,7 +27,12 @@ public class SampleSaga : Saga
         };
     }
 
-    public void Handle(UpdateEmailMessage update)
+    public Dependency Before(UpdateEmailMessage update)
+    {
+        return new Dependency();
+    }
+
+    public void Handle(UpdateEmailMessage update, Dependency dependency)
     {
         Email = update.Email;
     }
